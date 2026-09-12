@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Test / coverage
+coverage/
+.vitest/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Vite cache
+.vite/
+
+# DOSBox artefacts if the reference game is unpacked/run locally
+dos_version/rampart/
+dos_version/**/*.HIS
+dos_version/**/*.CFG
+dos_version/**/dosbox*.conf
+
+# Claude local settings
+.claude/settings.local.json
+
+# Original game binaries (abandonware, not redistributable)
+dos_version/
+
+# Reference screenshots of the original game (kept locally only)
+design/*.png
+design/*.jpeg
+design/*.jpg
