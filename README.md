@@ -9,8 +9,9 @@ written up in `design/description.md`. Rampart is a trademark of its respective
 owners; this project is not affiliated with or endorsed by them.
 
 The original DOS release is *not* part of this repository (`dos_version/` is
-git-ignored); if you own a copy you can drop it there to compare against in
-DOSBox.
+git-ignored). If you own a copy, drop it in as `dos_version/Rampart_DOS_EN.zip`
+and run `scripts/play-original.sh` to play it in DOSBox for comparison (it
+unpacks the archive on first run; needs `dosbox` and `unzip`).
 
 ## Running
 
